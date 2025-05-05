@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo Colucci</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script defer src="main.js"></script>
+
+    <link rel="icon" type="image/png" href="icon.png"/>
+    <!-- <script defer type="module" src="main.js"></script> -->
+  </head>
+  <body>
+    <div class="content">
+      <!-- Left side content -->
+      <section class="left-side">
+        <h1>Leonardo Colucci</h1>
+        <p>
+          I'm a passionate developer constantly seeking new challenges and
+          opportunities to grow. I love coding because it allows me to solve
+          real-world problems and build meaningful solutions that make an
+          impact.
+        </p>
+        <nav>
+          <div class="nav-info active">
+            <a href="#About" class="btn"
+              ><span class="number">01</span><span class="line"></span>About</a
+            >
+          </div>
+          <div class="nav-info">
+            <a href="#Projects" class="btn"
+              ><span class="number">02</span
+              ><span class="line"></span>Projects</a
+            >
+          </div>
+        </nav>
+
+        <div class="socials">
+          <a href="https://github.com/xDrokra" target="_blank"
+            ><i class="fa-brands fa-github"></i>Github
+            <i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/leonardo-colucci-97312a308/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i>LinkedIn
+            <i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+
+          <a
+            href="mailto:leocolgucci@gmail.com"
+            ><i class="fa-solid fa-envelope"></i>Email
+            <i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Right side content -->
+      <section class="right-side">
+        <div class="about" id="About">
+          <div class="input-statment">> Leonardo.currentLocation</div>
+          <div class="return-statment">"Fasano, ITA"</div>
+
+          <div class="input-statment">> Leonardo.resume</div>
+          <div class="return-statment">"leonardo.pdf"</div>
+<!-- 
+          <div class="input-statment">> Leonardo.contactInfo</div>
+          <div class="return-statment">
+            ["leocolgucci@gmail.com", "LinkedIn", "github"]
+          </div> -->
+
+          <div class="input-statment">> Leonardo.education</div>
+          <div class="return-statment">
+            "Computer Science - Uniba Aldo Moro"
+          </div>
+
+          <div class="input-statment">> Leonardo.skills</div>
+          <div class="return-statment">
+            ["Sass", "JavaScript", "React", "Css", "Git", "SQL"]
+          </div>
+
+          <div class="input-statment">
+            > <span class="blinking-cursor"></span>
+          </div>
+        </div>
+
+        <h3 id="Projects">PROJECTS</h3>
+        <div class="projects">
+          <a
+            href="https://github.com/xDrokra/Road-Accident-Analytics"
+            target="_blank"
+          >
+            <div class="project-container">
+              <h3>Road accident analytics</h3>
+              <span class="skills-used">JS, HTML, CSS</span>
+              <p class="description">
+                A data visualization project that maps and analyzes road
+                accidents across major Italian municipalities in 2023.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/xDrokra/Price-tracker-Amazon"
+            target="_blank"
+          >
+            <div class="project-container">
+              <h3>Price tracker Amazon</h3>
+              <span class="skills-used">JS, NODE, HTML, CSS, SQLite</span>
+              <p class="description">
+                local application to track product prices on Amazon (and similar
+                websites if set right). It uses Node.js, Puppeteer, and SQLite
+                to scrape prices and maintain a local database.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/xDrokra/Diabetes-Prediction-ML"
+            target="_blank"
+          >
+            <div class="project-container">
+              <h3>Diabetes prediction</h3>
+              <span class="skills-used">PYTHON, JUPYTER NOOTEBOOK</span>
+              <p class="description">
+                This project focuses on leveraging machine learning techniques
+                in the healthcare domain to predict diabetes in patients.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
