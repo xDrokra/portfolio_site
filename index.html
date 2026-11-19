@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leonardo Colucci</title>
-    
+
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,10 +32,10 @@
       <section class="left-side">
         <h1>Leonardo Colucci</h1>
         <p>
-          I'm a passionate developer constantly seeking new challenges and
-          opportunities to grow. I love coding because it allows me to solve
-          real-world problems and build meaningful solutions that make an
-          impact.
+          Sviluppatore full-stack appassionato di problemi reali. Progetto e
+          realizzo e-commerce, automazioni gestionali e integrazioni AI in
+          azienda, trasformando processi manuali in soluzioni concrete che
+          fanno la differenza.
         </p>
         <nav>
           <div class="nav-info active">
@@ -44,9 +44,15 @@
             >
           </div>
           <div class="nav-info">
-            <a href="#Projects" class="btn"
+            <a href="#Experience" class="btn"
               ><span class="number">02</span
-              ><span class="line"></span>Projects</a
+              ><span class="line"></span>Esperienza</a
+            >
+          </div>
+          <div class="nav-info">
+            <a href="#Projects" class="btn"
+              ><span class="number">03</span
+              ><span class="line"></span>Progetti</a
             >
           </div>
         </nav>
@@ -74,25 +80,20 @@
       <!-- Right side content -->
       <section class="right-side">
         <div class="about" id="About">
-          <div class="input-statment">> Leonardo.currentLocation</div>
+          <div class="input-statment">> Leonardo.posizione</div>
           <div class="return-statment">"Fasano, ITA"</div>
 
-          <div class="input-statment">> Leonardo.resume</div>
+          <div class="input-statment">> Leonardo.cv</div>
           <div class="return-statment"><a href="./leonardo_colucci_cv.pdf" download="leonardo_colucci_cv">"leonardo.pdf"</a></div>
-<!-- 
-          <div class="input-statment">> Leonardo.contactInfo</div>
-          <div class="return-statment">
-            ["leocolgucci@gmail.com", "LinkedIn", "github"]
-          </div> -->
 
-          <div class="input-statment">> Leonardo.education</div>
+          <div class="input-statment">> Leonardo.formazione</div>
           <div class="return-statment">
-            "Computer Science - University of Bari Aldo Moro"
+            "Informatica - Università di Bari Aldo Moro"
           </div>
 
-          <div class="input-statment">> Leonardo.skills</div>
+          <div class="input-statment">> Leonardo.competenze</div>
           <div class="return-statment">
-            ["JS", "Node.js", "React", "SQL", "HTML", "CSS", "Java", "Python", "Git"]
+            ["JS", "TypeScript", "Next.js", "NestJS", "Node.js", "React", "Python", "SQL", "AI / LLM", "Git"]
           </div>
 
           <div class="input-statment">
@@ -100,7 +101,48 @@
           </div>
         </div>
 
-        <h3 id="Projects">PROJECTS</h3>
+        <h3 id="Experience" class="section-header">ESPERIENZA</h3>
+        <div class="projects">
+          <div class="project-container">
+            <h3>E-commerce</h3>
+            <span class="skills-used">NEXT.JS, NESTJS, SQL</span>
+            <p class="description">
+              Progettazione, sviluppo e gestione di piattaforme e-commerce
+              aziendali (es. mondoprimed.it): dal catalogo prodotti al flusso
+              d'ordine, lato front-end e back-end.
+            </p>
+          </div>
+
+          <div class="project-container">
+            <h3>Automazioni gestionali</h3>
+            <span class="skills-used">NODE.JS, PYTHON, EXCEL</span>
+            <p class="description">
+              Automazioni per la generazione di estratti conto, fatture e bolle,
+              parsing di fatture elettroniche (XML) convertite in Excel e
+              supporto al data entry, eliminando attività manuali ripetitive.
+            </p>
+          </div>
+
+          <div class="project-container">
+            <h3>Integrazione AI nei sistemi aziendali</h3>
+            <span class="skills-used">AI / LLM, API</span>
+            <p class="description">
+              Sviluppo di un chatbot interno aziendale e integrazione di modelli
+              AI nei flussi di lavoro e nei sistemi gestionali interni.
+            </p>
+          </div>
+
+          <div class="project-container">
+            <h3>Modelli locali & tuning</h3>
+            <span class="skills-used">LLM, PYTHON</span>
+            <p class="description">
+              Deploy di modelli LLM in locale e fine-tuning su dati aziendali,
+              per soluzioni AI private e su misura per le esigenze dell'azienda.
+            </p>
+          </div>
+        </div>
+
+        <h3 id="Projects" class="section-header">PROGETTI</h3>
         <div class="projects">
           <a
             href="https://github.com/xDrokra/Road-Accident-Analytics"
@@ -110,8 +152,8 @@
               <h3>Road accident analytics</h3>
               <span class="skills-used">JS, HTML, CSS</span>
               <p class="description">
-                A data visualization project that maps and analyzes road
-                accidents across major Italian municipalities in 2023.
+                Progetto di data visualization che mappa e analizza gli
+                incidenti stradali nei principali comuni italiani nel 2023.
               </p>
             </div>
           </a>
@@ -124,9 +166,9 @@
               <h3>Price tracker Amazon</h3>
               <span class="skills-used">JS, NODE, HTML, CSS, SQLite</span>
               <p class="description">
-                local application to track product prices on Amazon (and similar
-                websites if set right). It uses Node.js, Puppeteer, and SQLite
-                to scrape prices and maintain a local database.
+                Applicazione locale per monitorare i prezzi dei prodotti su
+                Amazon (e siti simili se configurata). Usa Node.js, Puppeteer e
+                SQLite per lo scraping dei prezzi e un database locale.
               </p>
             </div>
           </a>
@@ -137,10 +179,10 @@
           >
             <div class="project-container">
               <h3>Diabetes prediction</h3>
-              <span class="skills-used">PYTHON, JUPYTER NOOTEBOOK</span>
+              <span class="skills-used">PYTHON, JUPYTER NOTEBOOK</span>
               <p class="description">
-                This project focuses on leveraging machine learning techniques
-                in the healthcare domain to predict diabetes in patients.
+                Progetto che applica tecniche di machine learning in ambito
+                sanitario per predire il diabete nei pazienti.
               </p>
             </div>
           </a>

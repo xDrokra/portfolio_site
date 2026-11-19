@@ -161,7 +161,7 @@ nav .nav-info:hover {
 
 /* Projects */
 
-#Projects {
+.section-header {
   margin: 3.5rem 0rem 2rem 0rem;
   font-size: 0.7rem;
   letter-spacing: 0.04rem;
